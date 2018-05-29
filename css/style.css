@@ -1,0 +1,302 @@
+*
+{
+padding:0px;
+margin:0px;
+}
+ul {
+	list-style-type: disc;
+	padding-left:30px;
+}
+
+
+.main
+{
+padding-bottom:30px;
+}
+.top-header
+{
+  width: 100%;
+  float: left;
+  background: #3571BD;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: solid 6px #FDB81E;
+  z-index: 1000;
+  position: relative;
+  color: #fff;
+  padding: 17px 0px;
+}
+.top-header h3
+{
+	text-align:center;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+	letter-spacing:1px;
+}
+
+.header-cagov-logo {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	line-height: 145px;
+	left: auto;
+	padding-left: 15px;
+}
+.navbar-logo>img{
+	max-width: 100%;
+	height: auto;
+	
+}
+    .headertitle{
+  padding-left: 128px;
+  }
+
+@media (max-width: 768px) {
+   
+  .navbar-brand {
+
+  display: none;
+
+  }
+  .headertitle{
+  padding-left: 0;
+  }
+  }
+  
+
+.alligncenter {
+    width: 29%;
+    margin: auto;
+    padding: 30px;
+    background-color: #cecece;
+    box-shadow: 6px 6px 0px #ada9a9;
+}
+.login_form {
+    width: 100%;
+    float: left;
+    /* position: relative; */
+}
+/*.current_form_area {
+    width: 100%;
+    float: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}*/
+.form_submit
+{
+width:100%;
+float:left;
+}
+
+#password
+{
+text-align:right;
+padding:0;
+margin:0;
+
+}
+.form_submit .btn-default {
+    color: #fff;
+    background-color: #3164f3;
+    border-color: #ccc;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    padding: 4px 14px;
+}
+.page_inner {
+    width: 42%;
+    float: left;
+    text-align: center;
+}
+.page_inner a
+{
+margin:0px 5px;
+}
+
+/*.page_inner a .btn-default {
+    color: #fff;
+    background-color: #0e5af3;
+    border-color: #0000;
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}*/
+.back_menu {
+    width: 100%;
+    float: left;
+    padding: 14px 0px;
+    text-align: right;
+}
+.back_menu .btn-default {
+    color: #fff;
+    background-color: #0e5af3;
+    border-color: #000;
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.list_users{
+  width:100%;
+  /*float:left;*/
+  overflow-x:auto;
+}
+.menu
+{
+	float:right;
+	margin-right:10px;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -80px;
+  /* Pad bottom by footer height */
+  padding: 0 0 100px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 30px;
+  background-color: #ddd;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/*.navbar-brand>img {
+   height: 100px;
+   width: 100px;
+   margin: 0 auto;
+   padding-bottom: -10px;
+
+
+   /* probably not needed anymore, but doesn't hurt */
+  /* -o-object-fit: contain;
+   object-fit: contain; 
+
+}*/
+.navbar{
+  border-bottom: solid 6px #34689B;
+	
+}
+
+.navbar-brand {
+  height: 120px;
+  padding: 0px !important;
+  margin: 0px !important;
+  }
+
+.navbar-brand>img {
+  max-height: 100%;
+  margin:0px;
+  padding:10px 0px 0px 20px;
+   background-repeat: no-repeat;
+  display: block;
+  max-width: 100%;
+  }
+
+  
+.collapse {
+    display: block !important;
+}
+.navbar-btn {
+    border-color: #ae142a;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #11508e;
+    padding: 6px 22px !important;
+    
+}
+.navbar-btn:hover {
+    color: #FFF;
+    background-color: #337AB7 !important;
+    border-color: #2E6DA4 !important;
+}
+
+.btn-primary {
+
+        border-color: #164675;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #11508e;
+     margin:10px;
+} 
+
+  /*  border-color: #11508e;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #11508e;
+    padding: 26px 36px 26px 36px !important;
+    min-width:400px;
+    margin:10px;
+    }*/ 
+  .btn-info{
+
+    border-color: #164675;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #11508e;
+    margin:10px;
+    padding:20px;
+
+  }
+  
+
+
+#panel {    
+    box-sizing:border-box;
+    padding:70px;
+    margin-top:140px;
+  }
+ 
+#panel #submit{
+    width:100%;
+    margin-top:10px;
+}
+
+@media (max-width: 768px) {
+
+#panel {    
+    box-sizing:border-box;
+    padding:0px;
+    margin-top:70px;
+  }
+}
