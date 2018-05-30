@@ -48,7 +48,7 @@ session_start();
 
 		  <a class="navbar-brand pull-left" href="http://www.ca.gov"><img src="images/govblue.png" alt="California State"></a>
 		<div>
-		<h1 class="headertitle">DSIA CI/CD DEMO</h1>
+		<h1 class="headertitle">DSIA CI/CD Pipeline DEMO</h1>
 		</div>
         </div>
 		
